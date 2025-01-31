@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: mariagill321/pythonapp:latest
+          image: mariagill321/deploytoserver:0.0.1
           ports:
             - containerPort: 5000
